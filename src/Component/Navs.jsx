@@ -11,7 +11,7 @@ import { Discod } from './Icon'
 const Navs = () => {
     return (
         <div className='bgimg position-relative'>
-            <Container className='custom-container'>
+            <Container className='custom-container position-relative z_index'>
                 <div className='d-flex align-items-center justify-content-between py-2'>
                     <img src={Logonav} alt="#" className='z_img '/>
                     <label for="iconbox">
@@ -22,10 +22,10 @@ const Navs = () => {
                     <input type="checkbox" id='iconbox' hidden/>
                     <ul className='d-flex align-items-center gap-lg-3 mb-0 ps-0 nav-lg-screen gap-links'>
                         <li className='position-relative navlink1s'><Link className='nav_link navlink2s position-relative'>About</Link></li> 
-                        <li className='position-relative navlink1s '><Link className='nav_link navlink2s position-relative'>CryptoStraps</Link></li> 
+                        <li className='position-relative navlink1s '><Link className='nav_link navlink2ss position-relative'>CryptoStraps</Link></li> 
                         <li className='position-relative navlink1s'><Link className='nav_link navlink2s position-relative'>Team</Link></li> 
                         <li className='position-relative navlink1s'><Link className='nav_link navlink2s position-relative'>Faq</Link></li> 
-                        <li className='position-relative navlink1s'><Link className='nav_link navlink2s position-relative'>Light Paper</Link></li> 
+                        <li className='position-relative navlink1s'><Link className='nav_link navlink2ss position-relative'>Light Paper</Link></li> 
                     </ul>
 
                     <div className='d-flex align-items-center d-none d-xl-block'>
@@ -36,7 +36,7 @@ const Navs = () => {
                 </div>
 
                 <Row>
-                    <Col lg={6}>
+                    <Col lg={6} data-aos="fade-up-right" data-aos-delay="100">
                         <div className='pt-lg-5 mt-md-5'>
                             <img src={Imgheader} alt="#" className='logonav1ss'/>
                             <p className='webhr'>Web3 Gaming Reimagined</p>
@@ -46,7 +46,7 @@ const Navs = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={6} className='pt-lg-5'>
+                    <Col lg={6} className='pt-lg-5' data-aos="fade-up-left" data-aos-delay="100">
                         <img src={Imagepistl} alt="#" className='w-100' />
                     </Col>
                 </Row>

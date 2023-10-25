@@ -9,8 +9,11 @@ import Team from './Component/Team';
 import Faq from './Component/Faq';
 import Solana from './Component/Solana';
 import Ftr from './Component/Ftr';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  AOS.init();
   return (
     <>
       <Navs />

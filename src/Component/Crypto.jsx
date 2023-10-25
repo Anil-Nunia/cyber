@@ -5,7 +5,7 @@ const Crypto = () => {
   return (
       <div className='bg-black'>
           <Container className='py-5 custom-container'>
-              <Row className='py-5 align-items-center'>
+              <Row className='py-lg-5 align-items-center'>
                   <Col lg={5} className='mb-5 mb-lg-0'>
                       <img src={Crpimg} alt="#"  className='w-100'/>
                   </Col>

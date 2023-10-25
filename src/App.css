@@ -7,14 +7,12 @@
   padding: 0;
   margin: 0;
 }
-
 .bgimg {
   background-image: url(./assets/image/png/bg-imgs.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .webhr {
   color: #FFF;
   font-family: 'Audiowide', sans-serif;
@@ -36,7 +34,6 @@
   background: #1EADB6;
   border: none;
 }
-
 .btn_learn {
   color: #FFF;
   font-family: Audiowide;
@@ -74,15 +71,12 @@
   font-weight: 400;
   line-height: 113.49%;
 }
-
 .what2ndis {
   color: #000;
 }
-
 .fps_color {
   color: #1EADB6;
 }
-
 .ecosystem {
   font-family: Montserrat;
   font-size: 16px;
@@ -92,7 +86,6 @@
   opacity: 0.7;
   color: #000;
 }
-
 .mode {
   font-family: Montserrat;
   font-size: 16px;
@@ -102,7 +95,6 @@
   opacity: 0.7;
   color: #000;
 }
-
 .team {
   color: #000;
   font-family: Audiowide;
@@ -141,9 +133,13 @@
 
 .bgimghero {
   background-image: url(./assets/image/png/bgheroimg.png);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.min-vh-50{
+  min-height: 80vh !important;
 }
 
 .sola {
@@ -230,6 +226,15 @@
   opacity: 0;
   padding: 1px 30px;
 }
+.navlink2ss::after {
+  content: url("./assets//image/png/imghvr1.png");
+  position: absolute;
+  left: -63px;
+  bottom: -11px;
+  opacity: 0;
+  padding: 1px 30px;
+  transform: skewX(-20deg);
+}
 
 .navlink1s:hover ::after {
   opacity: 1 !important;
@@ -239,9 +244,18 @@
   content: url("./assets/image/png/imghvr2.png");
   position: absolute;
   right: -64px;
+  top: -7px;
+  opacity: 0;
+  padding: 1px 30px;
+}
+.navlink2ss::before {
+  content: url("./assets/image/png/imghvr2.png");
+  position: absolute;
+  right: -62px;
   top: -8px;
   opacity: 0;
   padding: 1px 30px;
+  transform: skewX(-30deg);
 }
 
 .navlink1s:hover ::before {
@@ -408,23 +422,40 @@
 }
 
 .lg2:hover svg path {
-  stroke: #fff;
+  fill: #1EADB6;
 }
 
 .lg3:hover svg path {
-  stroke: #1EADB6;
+  fill: #1EADB6;
 }
-
+.lg1{
+  cursor: pointer;
+}
+.lg2{
+  cursor: pointer;
+}
+.lg3{
+  cursor: pointer;
+}
+.nav_twt{
+  cursor: pointer;
+}
+.nav_ins{
+  cursor: pointer;
+}
+.nav_dis{
+  cursor: pointer;
+}
 .nav_twt:hover svg path {
   stroke: #1EADB6;
 }
 
 .nav_ins:hover svg path {
-  stroke: #1EADB6;
+  fill: #1EADB6;
 }
 
 .nav_dis:hover svg path {
-  stroke: #1EADB6;
+  fill: #1EADB6;
 }
 
 @media (max-width: 992px) {
@@ -520,6 +551,9 @@ position: absolute;
 .ellipse4s{
   bottom: 0;
   right: 0;
+}
+.z_index{
+  z-index: 1;
 }
 .btn-primary {
   color: #fff !important;
