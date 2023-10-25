@@ -14,7 +14,7 @@ const Gameplay = () => {
 
   return (
     <div>
-      <Container className='py-5 custom-container'>
+      <Container className='py-5 custom-container align-items-center justify-content-center d-flex flex-column'>
         <div className='d-flex align-item-center justify-content-center py-lg-5'>
           <p className='cybr1st cyberfp2nd position-relative line1s'>CyberFPS <span className='gmpy2nd position-relative line2s'>Gameplay</span></p>
         </div>
