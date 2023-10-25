@@ -1,38 +1,647 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bgimg {
+  background-image: url(./assets/image/png/bg-imgs.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.webhr {
+  color: #FFF;
+  font-family: 'Audiowide', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn_get {
+  color: #000;
+  font-family: Audiowide;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 36px;
+  border-radius: 7px;
+  background: #1EADB6;
+  border: none;
+}
+
+.btn_learn {
+  color: #FFF;
+  font-family: Audiowide;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 36px;
+  border-radius: 7px;
+  border: 2px solid #1EADB6;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+.cyberfp2nd {
+  font-family: Audiowide;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cybr1st {
+  color: #000;
+}
+
+.gmpy2nd {
+  color: #1EADB6;
+}
+
+.Whatis {
+  font-family: Audiowide;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 113.49%;
+}
+
+.what2ndis {
+  color: #000;
+}
+
+.fps_color {
+  color: #1EADB6;
+}
+
+.ecosystem {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  opacity: 0.7;
+  color: #000;
+}
+
+.mode {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  opacity: 0.7;
+  color: #000;
+}
+
+.team {
+  color: #000;
+  font-family: Audiowide;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.collin {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.founder {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.faq {
+  color: #fff;
+  font-family: Audiowide;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bgimghero {
+  background-image: url(./assets/image/png/bgheroimg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sola {
+  max-width: 100%;
+  max-height: 100%;
+  width: 385px;
+  height: 255px;
+}
+
+.unreal {
+  max-width: 263px;
+  max-height: 255px;
+  width: 100%;
+  height: 100%;
+}
+
+.footrheroimg {
+  background-image: url(./assets/image/png/Footrheroimg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cybrftr {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.line {
+  opacity: 0.6;
+  background: #FFF;
+  color: #FFF;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: 60px;
+}
+
+.crps {
+  color: #FFF;
+  font-family: Audiowide;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.studio {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+.nav_link {
+  font-family: Audiowide;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #FFF;
+}
+
+.navlink1s {
+  background-image: url("./assets/image/png/imgnava.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 1px 30px;
+}
+
+.navlink2s::after {
+  content: url("./assets//image/png/imghvr1.png");
+  position: absolute;
+  left: -63px;
+  bottom: -10px;
+  opacity: 0;
+  padding: 1px 30px;
+}
+
+.navlink1s:hover ::after {
+  opacity: 1 !important;
+}
+
+.navlink2s::before {
+  content: url("./assets/image/png/imghvr2.png");
+  position: absolute;
+  right: -64px;
+  top: -8px;
+  opacity: 0;
+  padding: 1px 30px;
+}
+
+.navlink1s:hover ::before {
+  opacity: 1 !important;
+}
+
+
+.accordion-item {
+  margin-bottom: 33px !important;
+  background-color: #000 !important;
+  color: #dfdfdf !important;
+  padding: 14px !important;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border: 1px solid #1EADB6 !important;
+}
+
+.accordion-item:active {
+  box-shadow: 0 0 15px #1EADB6;
+}
+
+.accordion-item:hover {
+  box-shadow: 0 0 15px #1EADB6;
+}
+
+.accordion-button {
+  color: #FFF !important;
+  background-color: #000 !important;
+  font-family: Montserrat;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  box-shadow: unset !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  color: #1EADB6 !important;
+  box-shadow: unset !important;
+}
+.logonav1ss{
+  max-width: 344px;
+  width: 100%;
+}
+.accordion-button::after {
+  background-image: url(./assets/image/png/accod.png) !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: unset !important;
+  outline: 0;
+  box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+
+}
+
+.accordion-item {
+  position: relative;
+  border-top-left-radius: 42px !important;
+  border-bottom-right-radius: 38px !important;
+}
+
+.accordion {
+  width: 1078px;
+  max-width: 94%;
+}
+
+.Accrdnimg1 {
+  position: absolute;
+  z-index: 3;
+  top: -1px;
+  left: -1px;
+}
+
+.Accrdnimg2 {
+  position: absolute;
+  z-index: 3;
+  right: -1px;
+  bottom: -1px;
+}
+
+.accordion-body {
+  padding-top: 0 !important;
+}
+
+.z_img {
+  z-index: 22;
+}
+
+.line1s::before {
+  content: '';
+  position: absolute;
+  background: #1EADB6;
+  width: 26%;
+  height: 2px;
+  bottom: 0;
+  left: 24%;
+}
+
+.line2s::after {
+  content: '';
+  position: absolute;
+  background-color: #1EADB6;
+  top: 0;
+  left: 0;
+  width: 56%;
+  height: 2px;
+}
+
+.line3s::after {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 2px;
+  background-color: #1EADB6;
+  bottom: 0;
+  left: 0;
+}
+
+.line4s::after {
+  position: absolute;
+  content: '';
+  width: 34%;
+  height: 2px;
+  background-color: #1EADB6;
+  bottom: 0;
+  left: 0;
+}
+
+.lineteam::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #1EADB6;
+  bottom: 0;
+  left: 0;
+}
+
+.linefaq::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #1EADB6;
+  bottom: 0;
+  left: 0;
+}
+
+.btn_get:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+.btn_learn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.lg1:hover svg path {
+  stroke: #1EADB6;
+}
+
+.lg2:hover svg path {
+  stroke: #fff;
+}
+
+.lg3:hover svg path {
+  stroke: #1EADB6;
+}
+
+.nav_twt:hover svg path {
+  stroke: #1EADB6;
+}
+
+.nav_ins:hover svg path {
+  stroke: #1EADB6;
+}
+
+.nav_dis:hover svg path {
+  stroke: #1EADB6;
+}
+
+@media (max-width: 992px) {
+  .nav-lg-screen {
+    background-color: #000;
+    height: 100vh;
+    left: -100%;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    transition: .5s ease-in-out;
+    width: 100%;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  label[for=iconbox] {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+
+  }
+
+  label[for=iconbox]>span {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid white;
+    z-index: 12;
+  }
+
+  input[type=checkbox]:checked+ul.nav-lg-screen {
+    left: 0;
+    opacity: 1;
+    z-index: 8;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gap-links {
+  gap: 42px !important;
 }
 
-.App-link {
-  color: #61dafb;
+.Vect1img:hover {
+  scale: 1.1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Vect2img:hover {
+  scale: 1.1;
+}
+
+.Vect3img:hover {
+  scale: 1.1;
+}
+
+.Vect4img:hover {
+  scale: 1.1;
+}
+
+.bg-hero-imgs {
+  background-image: url(./assets/image/png/bg-hero-imgs.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.groupicon {
+  position: absolute;
+  left: 45%;
+  top: 20%;
+}
+.ellips{
+  width: 234px;
+    height: 234px;
+    fill: linear-gradient(137deg, #0FF 0%, #F63409 97.23%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) blur(185px);
+position: absolute;
+}
+.ellipse1s{
+  top: 0;
+  left: 0;
+}
+.ellipse2s{
+  top: 0;
+  right: 0;
+}
+.ellipse3s{
+  bottom: 0;
+  left: 0;
+}
+.ellipse4s{
+  bottom: 0;
+  right: 0;
+}
+.btn-primary {
+  color: #fff !important;
+   background-color: unset !important; 
+   border-color:  unset !important;
+}
+
+@media (min-width:320px) {
+  .btn_get {
+    font-size: 12px;
   }
-  to {
-    transform: rotate(360deg);
+.logonav1ss {
+  max-width: 264px;
+  width: 100%;
+}
+  .groupicon {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    width: 100%;
+    max-width: 42px;
+  }
+
+  .accordion-button {
+    font-size: 14px !important;
+  }
+
+  .accordion-item {
+    font-size: 12px;
+  }
+
+  .btn_learn {
+    font-size: 12px;
+  }
+
+  .Whatis {
+    font-size: 30px;
+  }
+
+  .faq {
+    font-size: 50px;
+  }
+
+  .team {
+    font-size: 50px;
+  }
+
+  .cyberfp2nd {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width:576px) {
+  .btn_get {
+    font-size: 16px;
+  }
+
+  .Whatis {
+    font-size: 44px;
+  }
+
+  .btn_learn {
+    font-size: 16px;
+  }
+
+  .cyberfp2nd {
+    font-size: 44px;
+  }
+
+  .accordion-button {
+    font-size: 18px !important;
+  }
+
+  .accordion-item {
+    font-size: 14px;
+  }
+
+  .groupicon {
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    width: 100%;
+    max-width: 63px;
+  }
+    .logonav1ss {
+      max-width: 344px;
+      width: 100%;
+    }
+  
+}
+
+@media (min-width:992.5px) {
+
+  /* .custom-container {
+    max-width: 1140px !important;
+  } */
+  .accordion-button {
+    font-size: 24px !important;
+  }
+
+  .accordion-item {
+    font-size: 16px;
+  }
+
+  .crps {
+    font-size: 64px;
+  }
+
+  .Whatis {
+    font-size: 64px;
+  }
+
+  .faq {
+    font-size: 64px;
+  }
+
+  .team {
+    font-size: 64px;
+  }
+
+  .cyberfp2nd {
+    font-size: 64px;
   }
 }

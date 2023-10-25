@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navs from './Component/Navs';
+import Gameplay from './Component/Gameplay';
+import What from './Component/What';
+import Crypto from './Component/Crypto';
+import Team from './Component/Team';
+import Faq from './Component/Faq';
+import Solana from './Component/Solana';
+import Ftr from './Component/Ftr';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navs />
+      <Gameplay />
+      <What />
+      <Crypto />
+      <Team />
+      <Faq />
+      <Solana />
+      <Ftr />
+    </>
   );
 }
 
