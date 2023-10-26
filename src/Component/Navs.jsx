@@ -27,7 +27,6 @@ const Navs = () => {
                         <li className='position-relative navlink1s'><Link className='nav_link navlink2s position-relative'>Faq</Link></li> 
                         <li className='position-relative navlink1s'><Link className='nav_link navlink2ss position-relative'>Light Paper</Link></li> 
                     </ul>
-
                     <div className='d-flex align-items-center d-none d-xl-block'>
                         <span className='nav_twt'> <Twiter /> </span>
                         <span className='px-2 ms-1 me-2 nav_ins'> <Insta/></span>

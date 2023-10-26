@@ -262,7 +262,6 @@
   opacity: 1 !important;
 }
 
-
 .accordion-item {
   margin-bottom: 33px !important;
   background-color: #000 !important;
@@ -345,6 +344,7 @@
 
 .z_img {
   z-index: 22;
+  cursor: pointer;
 }
 
 .line1s::before {
@@ -419,14 +419,20 @@
 
 .lg1:hover svg path {
   stroke: #1EADB6;
+  transform: translateY(-12%);
+  transition: all ease-in-out;
 }
 
 .lg2:hover svg path {
   fill: #1EADB6;
+  transform: translateY(-12%);
+    transition: all ease-in-out;
 }
 
 .lg3:hover svg path {
   fill: #1EADB6;
+  transform: translateY(-6%);
+    transition: all ease-in-out;
 }
 .lg1{
   cursor: pointer;
@@ -448,14 +454,20 @@
 }
 .nav_twt:hover svg path {
   stroke: #1EADB6;
+  transform: translateY(-6%);
+    transition: all ease-in-out;
 }
 
 .nav_ins:hover svg path {
   fill: #1EADB6;
+  transform: translateY(-6%);
+    transition: all ease-in-out;
 }
 
 .nav_dis:hover svg path {
   fill: #1EADB6;
+  transform: translateY(-6%);
+    transition: all ease-in-out;
 }
 
 @media (max-width: 992px) {
