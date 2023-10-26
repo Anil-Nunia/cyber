@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Solanaimg from '../assets/image/png/imgsola.png'
 import Unrealimg from '../assets/image/png/imgunreal.png'
 const Solana = () => {

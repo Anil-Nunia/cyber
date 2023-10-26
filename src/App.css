@@ -431,7 +431,7 @@
 
 .lg3:hover svg path {
   fill: #1EADB6;
-  transform: translateY(-6%);
+  transform: translateY(-2%);
     transition: all ease-in-out;
 }
 .lg1{
@@ -460,7 +460,7 @@
 
 .nav_ins:hover svg path {
   fill: #1EADB6;
-  transform: translateY(-6%);
+  transform: translateY(-2%);
     transition: all ease-in-out;
 }
 
